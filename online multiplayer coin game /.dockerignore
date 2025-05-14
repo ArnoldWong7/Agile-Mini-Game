@@ -1,0 +1,22 @@
+# Frontend
+frontend/node_modules
+frontend/build
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Backend
+backend/venv
+backend/__pycache__
+backend/*.pyc
+backend/.env
+
+# General
+.git
+.gitignore
+README.md
+.vscode
+.venv
+.DS_Store 

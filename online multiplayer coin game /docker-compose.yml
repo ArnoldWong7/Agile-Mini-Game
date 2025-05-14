@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_API_URL=http://localhost/api
+      - REACT_APP_WS_URL=ws://localhost/ws
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=run.py
+      - FLASK_HOST=0.0.0.0
+    volumes:
+      - ./backend:/app 

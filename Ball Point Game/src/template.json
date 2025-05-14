@@ -1,0 +1,46 @@
+{
+  "gameId": "AAAAAAA",
+  "config": {
+    "rounds": 5,
+    "timePerRound": 120,
+    "blocks": 20,
+    "balls": ["red", "green", "yellow"]
+  },
+  "players": [
+    {
+      "id": "1",
+      "name": "Player 1",
+      "positon": 0,
+      "balls": []
+    },
+    {
+      "id": "2",
+      "name": "Player 2",
+      "balls": []
+    },
+    {
+      "id": "3",
+      "name": "Player 3",
+      "balls": []
+    },
+    {
+      "id": "4",
+      "name": "Player 4",
+      "balls": []
+    },
+    {
+      "id": "5",
+      "name": "Player 5",
+      "balls": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "balls0": [],
+      "balls1": [],
+      "balls2": []
+    }
+  ],
+  "currentRound": 1
+}
